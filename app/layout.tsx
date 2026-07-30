@@ -16,9 +16,7 @@ export const metadata: Metadata = {
     siteName: "For You",
     images: [
       {
-        url: "https://for-you-only-my-gf.vercel.app/opengraph-image.png", 
-        width: 1200,
-        height: 630,
+        url: "https://for-you-only-my-gf.vercel.app/opengraph-image.png",
       },
     ],
   },
