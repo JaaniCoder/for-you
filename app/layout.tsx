@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "For You",
     images: [
       {
-        url: "https://for-you-only-my-gf.vercel.app/opengraph-image.png",
+        url: "https://for-you-only-my-gf.vercel.app/opengraph-image.jpeg",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "For My Favorite Person 💌",
     description: "A digital universe built just for you. Happy National Girlfriend's Day.",
-    images: ["https://for-you-only-my-gf.vercel.app/opengraph-image.png"],
+    images: ["https://for-you-only-my-gf.vercel.app/opengraph-image.jpeg"],
   },
 };
 
