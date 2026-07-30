@@ -9,6 +9,8 @@ import {
   Html,
   OrbitControls,
 } from "@react-three/drei";
+
+// @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 import Link from "next/link";
 import * as THREE from "three";
