@@ -4,7 +4,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// 💌 FEATURE 4: Custom Metadata for iMessage/WhatsApp link sharing
 export const metadata: Metadata = {
   metadataBase: new URL("https://for-you-only-my-gf.vercel.app"),
   title: "For My Favorite Person 💌",
@@ -13,8 +12,27 @@ export const metadata: Metadata = {
     title: "For My Favorite Person 💌",
     description: "A digital universe built just for you. Happy National Girlfriend's Day.",
     type: "website",
+    url: "https://for-you-only-my-gf.vercel.app",
+    siteName: "For You",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "A digital universe built just for you",
+      },
+    ],
+  },
+  // WhatsApp sometimes uses Twitter metadata as a backup if OpenGraph fails
+  twitter: {
+    card: "summary_large_image",
+    title: "For My Favorite Person 💌",
+    description: "A digital universe built just for you. Happy National Girlfriend's Day.",
+    images: ["/opengraph-image.png"],
   },
 };
+
+
 
 export default function RootLayout({
   children,
