@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // 💌 FEATURE 4: Custom Metadata for iMessage/WhatsApp link sharing
 export const metadata: Metadata = {
+  metadataBase: new URL("https://for-you-only-my-gf.vercel.app"),
   title: "For My Favorite Person 💌",
   description: "A digital universe built just for you. Happy National Girlfriend's Day.",
   openGraph: {
