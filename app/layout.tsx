@@ -16,21 +16,20 @@ export const metadata: Metadata = {
     siteName: "For You",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "https://for-you-only-my-gf.vercel.app/opengraph-image.png", 
         width: 1200,
         height: 630,
-        alt: "A digital universe built just for you",
       },
     ],
   },
-  // WhatsApp sometimes uses Twitter metadata as a backup if OpenGraph fails
   twitter: {
     card: "summary_large_image",
     title: "For My Favorite Person 💌",
     description: "A digital universe built just for you. Happy National Girlfriend's Day.",
-    images: ["/opengraph-image.png"],
+    images: ["https://for-you-only-my-gf.vercel.app/opengraph-image.png"],
   },
 };
+
 
 
 
